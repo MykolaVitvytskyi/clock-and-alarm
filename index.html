@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <title>js</title>
+</head>
+<body>
+    <div class="container">
+        <span class="clock"></span>
+        <div class="alarmClockDiv">
+            <label for="alarmClock-1">Установить будильник в формате чч:мм на время:</label>
+            <input type="text" class="alarmClock" id="alarmClock-1" placeholder="07:30" maxlength="5">
+            <button class="btn" id="btn-1">Включить</button>
+            <p>Будильник сработает через:</p>
+            <label for="alarmClockHours">Часов:</label>
+            <input type="number" class="alarmClock" id="alarmClockHours" value="0">
+            <label for="alarmClockMinutes">Минут:</label>
+            <input type="number" class="alarmClock" id="alarmClockMinutes" value="0">
+            <label for="alarmClockMinutes">Секунд:</label>
+            <input type="number" class="alarmClock" id="alarmClockSeconds" value="0">
+            <button class="btn" id="btn-2">Включить</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
